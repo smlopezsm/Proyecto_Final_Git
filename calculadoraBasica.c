@@ -7,6 +7,11 @@ int multiplicar(int a, int b);
 float dividir(int a, int b);
 void mostrar_menu();
 
+float dividir(int a, int b){
+    float result = (float)a/b;
+    return result;
+}
+
 int main()
 {
     int opcion = 0, num1, num2, resultado;
@@ -49,6 +54,8 @@ int main()
                 printf("Error: Division por cero no permitida. Ingrese un segundo numero diferente de cero: ");
                 scanf("%d", &num2);
             }
+            float result =dividir(num1,num2);
+            printf("El resultado de la division es: %f",result);
             break;
 
         case 5:
