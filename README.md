@@ -6,9 +6,9 @@ Este proyecto consiste en el desarrollo colaborativo de una calculadora básica 
 
 ## 👥 Integrantes del Equipo
 
-- **Colaborador 1:** [Nombre]
-- **Colaborador 2:** [Nombre]
-- **Colaborador 3:** [Nombre]
+- **Colaborador 1:** [Santiago Lopez]
+- **Colaborador 2:** [Facundo Gomez]
+- **Colaborador 3:** [Nicolas Centorbi]
 
 
 ## 🔧 Funcionalidades Implementadas
@@ -23,4 +23,4 @@ Este proyecto consiste en el desarrollo colaborativo de una calculadora básica 
 [Describir los principales desafíos que enfrentó el equipo y cómo los resolvieron]
 
 ---
-**Fecha de Entrega:** [DD/MM/AAAA]
+**Fecha de Entrega:** [5/12/2025]
