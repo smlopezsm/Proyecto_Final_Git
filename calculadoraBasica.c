@@ -17,6 +17,11 @@ int restar(int a, int b)
     return a - b;
 }
 
+float dividir(int a, int b){
+    float result = (float)a/b;
+    return result;
+}
+
 int main()
 {
     int opcion = 0, num1, num2, resultado;
@@ -51,6 +56,8 @@ int main()
             scanf("%d", &num1);
             printf("Ingrese segundo numero: ");
             scanf("%d", &num2);
+            resultado=multiplicar(num1,num2);
+            printf("Resultado:%d",resultado);
             break;
 
         case 4:
@@ -63,6 +70,8 @@ int main()
                 printf("Error: Division por cero no permitida. Ingrese un segundo numero diferente de cero: ");
                 scanf("%d", &num2);
             }
+            float result =dividir(num1,num2);
+            printf("El resultado de la division es: %f",result);
             break;
 
         case 5:
@@ -94,3 +103,8 @@ void mostrar_menu()
 }
 
 // Crear las demás funciones aquí
+int multiplicar(int a, int b){
+    return a*b;
+}
+
+

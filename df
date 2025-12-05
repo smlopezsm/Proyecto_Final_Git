@@ -1,0 +1,13 @@
+[33mcommit 08940ee8820467054ea6dbe8dc6615c6344e1f87[m[33m ([m[1;36mHEAD -> [m[1;32mrama-santiago[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Fabrizio J Riera Bauer <fabriziojriera@gmail.com>
+Date:   Thu Dec 4 23:22:57 2025 -0300
+
+    Inicializar proyecto con estructura base
+    - calculadoraBasica.c
+    - README.md
+
+[33mcommit ae8a0e878be93a63b74fb1a18459569aeb402222[m
+Author: Fabrizio J Riera Bauer <fabriziojriera@gmail.com>
+Date:   Thu Dec 4 23:06:41 2025 -0300
+
+    Initial commit
