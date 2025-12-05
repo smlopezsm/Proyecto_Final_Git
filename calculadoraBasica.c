@@ -7,6 +7,16 @@ int multiplicar(int a, int b);
 float dividir(int a, int b);
 void mostrar_menu();
 
+int sumar(int a, int b)
+{
+    return a + b;
+}
+
+int restar(int a, int b)
+{
+    return a - b;
+}
+
 int main()
 {
     int opcion = 0, num1, num2, resultado;
@@ -23,13 +33,17 @@ int main()
             scanf("%d", &num1);
             printf("Ingrese segundo numero: ");
             scanf("%d", &num2);
+            resultado = sumar(num1,num2);
+            printf("El resultado es %d",resultado);
             break;
 
         case 2:
             printf("Ingrese primer numero: ");
             scanf("%d", &num1);
             printf("Ingrese segundo numero: ");
-            scanf("%d", &num2);
+            scanf("%d", &num2);            
+            resultado = restar(num1,num2);
+            printf("El resultado es %d",resultado);
             break;
 
         case 3:
@@ -67,7 +81,6 @@ int main()
     return 0;
 }
 
-
 // Función para mostrar el menú de operaciones
 void mostrar_menu()
 {
@@ -81,6 +94,3 @@ void mostrar_menu()
 }
 
 // Crear las demás funciones aquí
-
-
-
